@@ -99,5 +99,39 @@
                 font-weight: 100;
            }
         }
+        &-profile{
+            margin: 3rem;
+            color: $MID_TONE;
+
+            &-element::after{
+                content: ': ';
+            }
+            &-wrapper{
+                padding: 3rem;
+                // border: 1px solid $MID_TONE;
+                box-shadow: 0.1rem 0.1rem 0.9rem $MID_TONE;
+                border-radius: 3% 10%;
+            }
+            &-title{
+                margin-bottom: 2rem;
+            }
+            &-image{
+                width: 15rem;
+                height: 15rem;
+                border-radius: 100%;
+                background: url('./../../../assets/images/praveen-photo.jpg');
+                background-position: center;
+                background-size: cover;
+                margin: 0 auto;
+                border: 1px solid $MID_TONE;
+            }
+            &-group{
+                line-height: 2.3rem;
+                letter-spacing: 0.04rem;
+                word-spacing: 0.08rem;
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
     }
 }
