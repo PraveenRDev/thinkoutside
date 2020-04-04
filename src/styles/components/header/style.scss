@@ -8,7 +8,8 @@
     &__container{
         height: 100%;
         width: 100%;
-        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
         &-curve{
             height: 37%;
             width: 207%;
@@ -18,19 +19,25 @@
             overflow: hidden;
         }
         &-intro{
+            &-wrapper{
+                background: linear-gradient(rgba(5, 5, 6, 0.9), rgba(5, 5, 6, 0.88)), url('./../../../assets/images/background-computer.jpg');
+                position: absolute;
+                top: 0%;
+                left: 25%;
+                width: 100vw;
+                height: 34vh;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: initial;
+                background-attachment: fixed;
+            }
             text-transform: uppercase;
-            position: absolute;
-            top: -15%;
-            left: 25%;
-            width: 50%;
-            height: 120%;
-            background: linear-gradient(rgba(5, 5, 6, 0.9), rgba(5, 5, 6, 0.88)), url('./../../../assets/images/background-computer.jpg');
-            background-size: cover;
-            background-position: inherit;
-
-            //common properties
-            padding: 13rem 0;
             color: $LIGHT_TONE;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 100vw;
             
             &-name{
                 font-size: 4rem;
@@ -55,7 +62,6 @@
         &-brief{
             height: 60%;
             padding: 3rem;
-            overflow-y: scroll;
             &__about{
                 &-image{
                     height: 8rem;
@@ -72,6 +78,26 @@
                     color: $MID_TONE;
                 }
             }
+        }
+        &-quote{
+            width: 100vw;
+            background: linear-gradient(rgba(5, 5, 6, 0.8), rgba(5, 5, 6, 0.9)), url('./../../../assets/images/laptop-close_background.jpg');
+            background-attachment: fixed;
+            background-size: contain;
+            background-position: center;
+            padding: 3rem 0.3rem;
+            position: relative;
+            display: block;
+           &-line{
+                color: $LIGHT_TONE;
+                font-size: 1rem;
+                padding-top: 1rem;
+                text-align: center;
+                letter-spacing: 0.15rem;
+                word-spacing: 0.2rem;  
+                font-style: italic;  
+                font-weight: 100;
+           }
         }
     }
 }
