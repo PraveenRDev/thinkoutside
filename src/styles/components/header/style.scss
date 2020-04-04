@@ -12,7 +12,7 @@
         overflow-x: hidden;
         &-curve{
             height: 37%;
-            width: 207%;
+            width: 204%;
             left: -52%;
             border-radius: 0 0 100% 100%;
             position: relative;
@@ -24,7 +24,7 @@
                 position: absolute;
                 top: 0%;
                 left: 25%;
-                width: 100vw;
+                width: 100%;
                 height: 34vh;
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -36,7 +36,7 @@
             position: absolute;
             left: 50%;
             top: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-100%, -50%);
             width: 100vw;
             
             &-name{
@@ -111,6 +111,8 @@
                 // border: 1px solid $MID_TONE;
                 box-shadow: 0.1rem 0.1rem 0.9rem $MID_TONE;
                 border-radius: 3% 10%;
+                max-width: fit-content;
+                margin: 0 auto;
             }
             &-title{
                 margin-bottom: 2rem;
