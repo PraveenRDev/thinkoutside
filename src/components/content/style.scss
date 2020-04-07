@@ -1,0 +1,29 @@
+@import './../../styles/base/base';
+
+.content{
+    &-container{
+        position: relative;
+        text-align: center;
+        padding: 2rem 2.5rem;
+        background-color: $LIGHT_TONE;
+        width: 90%;
+        border-radius: 5rem;
+        margin: 3rem auto;
+    }
+    &-title{
+        color: $SECONDARY_HIGHLIGHT;
+        font-weight: 300;
+        font-size: 3rem;
+        margin-bottom: 1.2rem;
+
+    }
+    &-content{
+        color: $MID_TONE;
+        font-size: 1.25rem;
+        text-align: justify;
+        letter-spacing: 0.1em;
+        word-spacing: 0.09em;
+        word-break: break-word;
+        line-height: 2em;
+    }
+}
