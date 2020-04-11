@@ -16,9 +16,8 @@
             background: url('./../../assets/images/ThinkOutside-logo/vector/default.svg');
             background-position: center;
             background-size: cover;
-            height: 40rem;
             height: 6.8rem;
-            width: 23.5rem;
+            width: 22.5rem;
         }
         &-content{
             margin: 0 auto;
@@ -29,6 +28,10 @@
             font-size: 7rem;
             width: 20%
         }
+        &-group:nth-child(1) {
+            flex-shrink: 1;
+            border-right: 2px solid $DARK_TONE;
+          }
         &-icon{
             font-size: 4rem; 
         }
