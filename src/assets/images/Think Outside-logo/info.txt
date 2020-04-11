@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Ubuntu-B
+font link: https://fonts.google.com/specimen/Ubuntu
+font author: Dalton Maag
+font author site: http://www.daltonmaag.com/
+Slogan Font: Questrial-Regular.otf
+
+icon designer: Gregor Cresnar
+icon designer link: /grega.cresnar
+        
+
+fontColor: {"hex":"#3E92CC"}
+bgColor: {"hex":"#FEFFFE"}
+iconColor: {"hex":"#3E92CC"}
+sloganColor: {"hex":"#898CD8"}
+      
