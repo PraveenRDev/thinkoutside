@@ -1,0 +1,27 @@
+@import './../../styles/base/base';
+
+@media(min-width: 70rem){
+    .landing{
+        height: 100vh;
+        width: 99vw;
+        &__image-wrapper{
+            width: 100%;
+            left: 0%;
+            border-radius: 0 0 0 0;
+            overflow-x: hidden;
+        }
+        &__content{
+            &-title{
+                font-size: 7rem;
+                letter-spacing: 2.2rem;
+                padding-left: 2.2rem;
+            }
+            &-subTitle{
+                font-size: 2.2rem;
+                font-weight: 800;
+                padding-left: 1.2rem;
+                letter-spacing: 1.2rem;
+            }
+        }
+    }
+}

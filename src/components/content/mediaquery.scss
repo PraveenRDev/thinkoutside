@@ -1,0 +1,23 @@
+@import './../../styles/base/base';
+
+@media(min-width: 70rem){
+    .content{
+        &-container{
+            border-radius: 0;
+            margin: 0;
+            max-width: 70rem;
+            height: 70rem;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            padding: 8rem 0;
+            padding-right: 8rem;
+        }
+        &-title{
+            font-size: 4rem;
+        }
+        &-content{
+            font-size: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+@import './../../styles/base/base';
+
+@media(min-width: 70rem){
+    .navigation{
+        &-wrapper{
+            bottom: unset;
+            top: 0;
+            background: rgba(254, 255, 254, 0.985);
+        }
+        &-group{
+            flex-flow: row;
+            font-size: 7rem;
+        }
+        &-icon{
+            font-size: 4rem; 
+        }
+        &-text{
+            display:unset;
+            text-decoration: none;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-left: 1.2rem;
+            color: $SECONDARY_HIGHLIGHT;
+        }
+        &-text:hover{
+            font-weight: 900;
+        }
+        &-text.highlight{
+            color: $PRIMARY_HIGHLIGHT;
+            font-weight: 900;
+        }
+    }
+}

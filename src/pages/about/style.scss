@@ -1,3 +1,10 @@
-.about-container{
-
+@media(min-width: 70rem){
+    .about-container{
+        &_content{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }

@@ -9,6 +9,10 @@
         width: 90%;
         border-radius: 5rem;
         margin: 3rem auto;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        max-width: 35rem;
     }
     &-image{
         width: 12rem;
@@ -49,3 +53,5 @@
         }
     }
 }
+
+ @import './mediaquery.scss';

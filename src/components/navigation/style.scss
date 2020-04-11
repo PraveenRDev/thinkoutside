@@ -22,9 +22,10 @@
     }
     &-icon{
         color: $SECONDARY_HIGHLIGHT;
-        &>img{
-            height: 2.222rem;
-        }
+        cursor: pointer;
+    }
+    &-text{
+        display: none;
     }
 }
 
@@ -32,3 +33,9 @@
     color: $PRIMARY_HIGHLIGHT;
     padding: 0.1rem;
 }
+
+.lang{
+    width: 5rem;
+}
+
+@import './mediaquery.scss'

@@ -10,8 +10,10 @@ const About = ({lang='EN'}) => (
     <React.Fragment>
         <main className='about-container'>
             <Landing title={LANDING_CONTENT[lang].TITLE} subTitle={LANDING_CONTENT[lang].SUB_TITLE}/>
-            <Content title={ABOUT_CONTENT[lang].TITLE} content={ABOUT_CONTENT[lang].CONTENT} />
-            <Profile name={PROFILE_CONTENT[lang].NAME} location={PROFILE_CONTENT[lang].LOCATION} workexp={PROFILE_CONTENT[lang].WORK_EXP} education={PROFILE_CONTENT[lang].EDUCATION} email={PROFILE_CONTENT[lang].EMAIL}/>
+            <div className='about-container_content'>
+                <Profile name={PROFILE_CONTENT[lang].NAME} location={PROFILE_CONTENT[lang].LOCATION} workexp={PROFILE_CONTENT[lang].WORK_EXP} education={PROFILE_CONTENT[lang].EDUCATION} email={PROFILE_CONTENT[lang].EMAIL}/>
+                <Content title={ABOUT_CONTENT[lang].TITLE} content={ABOUT_CONTENT[lang].CONTENT} />
+            </div>
         </main>
     </React.Fragment>
 )

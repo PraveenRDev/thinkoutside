@@ -1,9 +1,11 @@
 @import './../../styles/base/base';
 
 .landing{
+    margin:0;
     position: relative;
     height: 25vh;
     width: 100vw;
+    max-width: 100%;
     overflow-x: hidden;
     &__image-wrapper{
         position: absolute;

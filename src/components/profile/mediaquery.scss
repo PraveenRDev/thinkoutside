@@ -1,0 +1,32 @@
+@import './../../styles/base/base';
+
+@media(min-width: 70rem){
+    .profile{
+        &-container{
+            border-radius: 0;
+            margin: 0;
+            max-width: 70rem;
+            height: 70rem;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            padding: 0;
+        }
+        &-image{
+            width: 16rem;
+            height: 16rem;
+            margin-bottom: 1rem;
+        }
+        &-info{
+            &-name{
+                font-size: 4rem;
+            }
+            &_icon{
+                font-size: 3rem;
+            }
+            &_detail{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

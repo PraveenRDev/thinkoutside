@@ -9,6 +9,7 @@
         width: 90%;
         border-radius: 5rem;
         margin: 3rem auto;
+        max-width: 35rem;
     }
     &-title{
         color: $SECONDARY_HIGHLIGHT;
@@ -27,3 +28,5 @@
         line-height: 2em;
     }
 }
+
+@import './mediaquery.scss';
