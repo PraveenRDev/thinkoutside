@@ -22,6 +22,8 @@ const Navigation = ({location, lang='EN', handleLanguage}) => {
             setPage(NAVIGATION.CONTACT)
         }
     }, [location])
+
+    useEffect(() => window.scrollTo(0,0), [page])
     
     return(
         <nav className='navigation-wrapper'>

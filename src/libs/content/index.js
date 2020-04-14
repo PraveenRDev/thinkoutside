@@ -53,3 +53,72 @@ export const NAVIGATION_CONTENT = {
         CONTACT: 'Contactez moi'
     }
 }
+
+export const SKILL_TYPE= [
+    {
+        EN: 'Area of Expertise',
+        FR: "Domaine d'Expertise"
+    },
+    {
+        EN: 'Technology Stack',
+        FR: 'Pile Technologique'
+    }
+]
+
+export const SKILL_SET = [
+    {
+        EN: 'Frontend',
+        FR:'Frontend',
+        SKILLS: ['HTML', 'CSS', 'Javascript', 'React', 'Redux', 'BootStrap']
+    },
+    {
+        EN: 'Backend',
+        FR: 'Backend',
+        SKILLS: ['Node', 'Express', 'SocketIO', 'Micro-services']
+    },
+    {
+        EN: 'Databases',
+        FR: 'Bases de données',
+        SKILLS: ['MongoDb', 'Redis(In memory DS)']
+    },
+    {
+        EN: 'Cloud Platform',
+        FR: 'Plateforme cloud',
+        SKILLS: ['aws']
+    },
+    {
+        EN: 'Tools',
+        FR: 'Outils',
+        SKILLS: ['NPM/YARN', 'GitHub', 'Jira', 'BitBucket', 'Slack', 'Postman', 'VS Code']
+    },
+]
+
+export const MERN_STACK = ['Mongo DB', 'Express', 'React', 'Node']
+
+export const MERN_STACK_BRIEF = {
+    EN: "MERN stack is a JavaScript stack that’s designed to make the development process smoother. MERN includes four open-source components: MongoDB, Express, React, and Node.js. These components provide an end-to-end framework to work in.",
+    FR: "La pile MERN est une pile JavaScript conçue pour rendre le processus de développement plus fluide. MERN comprend quatre composants open-source: MongoDB, Express, React et Node.js. Ces composants fournissent un cadre de travail de bout en bout."
+}
+
+export const TECH_SKILL_LEVEL = {
+    'HTML': 'gold',
+    'CSS': 'silver',
+    'Javascript': 'gold',
+    'React': 'gold',
+    'Redux': 'gold',
+    'BootStrap': 'bronze',
+    'Node': 'gold',
+    'Express': 'gold',
+    'SocketIO': 'silver',
+    'Micro-services': 'silver',
+    'MongoDb': 'gold',
+    'Redis(In memory DS)': 'silver',
+    'aws': 'bronze',
+    'NPM/YARN': 'gold',
+    'GitHub': 'gold',
+    'Jira': 'gold',
+    'BitBucket': 'silver',
+    'Slack': 'gold',
+    'Postman': 'gold',
+    'VS Code': 'gold'
+}
