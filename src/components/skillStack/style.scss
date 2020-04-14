@@ -1,0 +1,103 @@
+@import './../../styles/base/base';
+
+.skill-stack{
+    height: 100vh;
+    &_container{
+        position: relative;
+        text-align: center;
+        padding: 2rem 2.5rem;
+        background-color: $LIGHT_TONE;
+        width: 90%;
+        border-radius: 5rem;
+        margin: 3rem auto;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        max-width: 35rem;
+    }
+    &_title{
+        text-align: center;
+        color: $SECONDARY_HIGHLIGHT;
+        font-weight: 300;
+        font-size: 3rem;
+        margin-bottom: 1.2rem;
+    }
+    &_content{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+        margin-bottom: 0.5rem;
+        &-group{
+            width: 20%;
+            max-width: 20%;
+            height: 20%;
+            border-radius: 1rem;
+            font-size: 6.5rem;
+            text-align: center;
+            background: $SECONDARY_HIGHLIGHT;
+            color: $LIGHT_TONE;
+            margin: 0 0.1rem;
+        }
+        &-bullet{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            padding: 0.5rem;
+            &_item{
+                background-color: $SECONDARY_HIGHLIGHT;
+                font-size: 1.25rem;
+                padding: 1.2rem 0.9rem;
+                margin: 0.4rem;
+                color: $LIGHT_TONE;
+                font-style: italic;
+                letter-spacing: 0.2rem;
+                border-radius: 5%;
+                & ion-icon{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    &_bullet{
+        width: 100%;
+        color: $MID_TONE;
+    }
+    &_subTitle{
+        font-size: 1.4rem;
+        text-align: left;
+        font-weight: 400;
+        color: $PRIMARY_HIGHLIGHT;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        word-spacing: 0.07em;
+        margin-top: 2rem ;
+    }
+    &_brief{
+        color: $MID_TONE;
+        font-size: 1.25rem;
+        text-align: justify;
+        letter-spacing: 0.1em;
+        word-spacing: 0.09em;
+        word-break: break-word;
+        line-height: 2em;
+    }
+}
+
+.skills-container{
+    padding-top: 10%;
+}
+
+li{
+    list-style: none;
+}
+
+.bronze{
+    color: #AD8A56;
+}
+.silver{
+    color: #ffffff;
+}
+.gold{
+    color: #FEE101;
+}
