@@ -1,3 +1,8 @@
+export const BANNER_TEXT = {
+    EN: 'Checkout Portfolio',
+    FR: 'Portefeuille de Paiement'
+}
+
 export const LANDING_CONTENT = {
     EN: {
         TITLE: "Praveen",

@@ -5,7 +5,8 @@ import About from './pages/about'
 import Navigation from './components/navigation'
 import Skills from './pages/skills'
 
-const CV_URL = 'https://s3.ap-south-1.amazonaws.com/dev.thinkoutside.static/CV+OF+RAMKUMAR+PRAVEEN.pdf'
+import { CV_URL } from './libs/constants'
+import { BANNER_TEXT } from './libs/content'
 
 const App = () => {
 
@@ -25,7 +26,7 @@ const App = () => {
     return(
         <div>
             <div className='portfolio-download' onClick={() => window.open(CV_URL, 'prav.pdf', "download=yes")}>
-                <h3 className='portfolio-text'>Download Portfolio</h3>
+                <h3 className='portfolio-text'>{BANNER_TEXT[lang]}</h3>
                 <ion-icon className='portfolio-icon' name="cloud-download-outline"></ion-icon>
             </div>
             <React.Fragment>
